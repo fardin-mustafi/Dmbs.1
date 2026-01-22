@@ -1,0 +1,80 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Segoe UI,sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background:linear-gradient(120deg,#b97a57,#8c4b5d);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.card{
+  width:360px;
+  background:#fff;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 20px 40px rgba(0,0,0,.3);
+}
+
+.form h1{
+  margin-bottom:10px;
+}
+
+.text{
+  color:#777;
+  margin-bottom:25px;
+}
+
+.form input{
+  width:100%;
+  padding:14px;
+  margin-bottom:15px;
+  border:none;
+  border-radius:10px;
+  background:#f2f2f2;
+}
+
+.password-box{
+  position:relative;
+}
+
+.password-box span{
+  position:absolute;
+  right:15px;
+  top:14px;
+  cursor:pointer;
+}
+
+button{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:12px;
+  background:#9b6b6b;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#7a4f4f;
+}
+
+.or{
+  text-align:center;
+  margin:20px 0 10px;
+  color:#aaa;
+}
+
+.switch{
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  color:#9b6b6b;
+}
