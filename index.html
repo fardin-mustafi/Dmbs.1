@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <form class="form" action="login.php" method="POST">
+    <h1>Welcome Back</h1>
+    <p class="text">Login to your account</p>
+
+    <input type="email" name="email" placeholder="Email" required>
+
+    <div class="password-box">
+      <input type="password" name="password" id="loginPass" placeholder="Password" required>
+      <span onclick="toggleLogin()">👁</span>
+    </div>
+
+    <button type="submit">Login</button>
+
+    <p class="or">Don't have an account?</p>
+    <a class="switch" href="signup.html">Create Account</a>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
